@@ -24,13 +24,13 @@ The Slough project is a project by Daryl Stark to deliver consistent development
 Pull the latest version of this container:
 
 ```bash
-docker pull dast1968/slough-dev-dc-nodejs:1.0.0
+docker pull dast1986/slough-dev-dc-nodejs:1.0.0
 ```
 
 Run the container interactively:
 
 ```bash
-docker run -it dast1968/slough-dev-dc-nodejs:1.0.0
+docker run -it dast1986/slough-dev-dc-nodejs:1.0.0
 ```
 
 ## Using This Container as a Dev Container
@@ -50,7 +50,7 @@ Create a `.devcontainer/devcontainer.json` file in your project root:
 ```json
 {
   "name": "Node.js Development Environment",
-  "image": "dast1968/slough-dev-dc-nodejs:1.0.0",
+  "image": "dast1986/slough-dev-dc-nodejs:1.0.0",
   "customizations": {
     "vscode": {
       "extensions": [
