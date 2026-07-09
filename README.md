@@ -180,7 +180,7 @@ This container comes with the following tools pre-installed:
 
 ### Node.js Ecosystem
 
-- **Node.js**: Version 22.9.0
+- **Node.js**: Version 26.x
   - JavaScript runtime built on Chrome's V8 JavaScript engine
   - Supports the latest ECMAScript features
 - **npm**: Package manager (bundled with Node.js)
@@ -206,7 +206,7 @@ Check the installed Node.js version:
 
 ```bash
 node --version
-# Output: v22.9.0
+# Output: v26.x.x
 ```
 
 Run a JavaScript file:
