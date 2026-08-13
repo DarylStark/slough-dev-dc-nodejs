@@ -1,6 +1,6 @@
 {
 	"name": "Slough Generic Base image",
-	"image": "dast1986/slough-dev-dc-generic-base:latest",
+	"image": "dast1986/slough-dev-dc-generic-base:1.0.4",
 	"mounts": [
 		"source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
 	]
