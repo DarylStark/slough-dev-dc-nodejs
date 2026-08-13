@@ -1,5 +1,5 @@
 # hadolint ignore=DL3007
-FROM dast1986/slough-dev-dc-generic-base:1.0.0 AS base
+FROM dast1986/slough-dev-dc-generic-base:1.0.4 AS base
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
@@ -7,8 +7,9 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 USER root
 
 # Install Node.js
+# hadolint ignore=DL3008,DL3003,DL4006
 RUN curl -fsSL https://deb.nodesource.com/setup_26.x | bash - && \
-    apt-get install -y --no-install-recommends nodejs=26.5.0-1nodesource1
+    apt-get install -y --no-install-recommends nodejs
 
 # Switch back to developer user
 USER developer
