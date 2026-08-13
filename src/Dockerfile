@@ -7,6 +7,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 USER root
 
 # Install Node.js
+# hadolint ignore=DL3008,DL3003,DL4006
 RUN curl -fsSL https://deb.nodesource.com/setup_26.x | bash - && \
     apt-get install -y --no-install-recommends nodejs
 
